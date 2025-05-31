@@ -5,7 +5,7 @@ This project implements an image segmentation algorithm using KMeans clustering,
 
 ## Project Overview
 
-The goal of this project is to segment an image into distinct regions based on color similarity using the KMeans clustering algorithm. To optimize performance, the coreset method is applied to reduce the dataset size, resulting in faster computations and reduced memory usage. The image segmentation algorithm groups pixels with similar color values into clusters, producing segmented images that represent different regions.
+The goal of this project is to segment an image into distinct regions based on color similarity using the KMeans clustering algorithm. To optimize performance, the coreset method is applied to reduce the dataset size, resulting in faster computations and reduced memory usage. The image segmentation algorithm groups pixels with similar color values into clusters, producing segmented images that represent different regions. You can also create coresets for a custom image via the related repository [PixCoreset](https://github.com/OnePunchMonk/PixCoreset).
 
 ## Key Features
 
